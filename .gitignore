@@ -1,0 +1,23 @@
+# dependencies
+/node_modules
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# env (키 노출 금지)
+.env
+.env*.local
+.env.example
+
+# misc
+.DS_Store
+*.tsbuildinfo
+next-env.d.ts
+
+# 개발 참고/기획 문서 (로컬 유지, 업로드 제외)
+/_ref_*
+/프로젝트3_*.md

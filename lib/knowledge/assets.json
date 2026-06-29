@@ -1,0 +1,1192 @@
+{
+  "dev": [
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "브릿지X 고객 웹(웹/WAS)",
+      "use": "고객 대면 웹 및 WAS 애플리케이션, 서비스 이용 동의·조회 처리",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "브릿지X 모바일 앱",
+      "use": "충전·결제·환불 및 PIN/생체 인증 클라이언트",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "결제 API Gateway",
+      "use": "결제 요청 수신·인증·라우팅(Rate Limit)",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "결제 엔진",
+      "use": "충전·결제·환불 트랜잭션 처리 핵심 엔진",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "충전·결제 알림 서비스",
+      "use": "충전·결제·환불·정산 완료 알림 (앱푸시·SMS·메일) 발송",
+      "grade": "2등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "본인인증 연동 모듈 (PASS/NICE)",
+      "use": "CI/DI 수신·본인확인 API 연동(HTTPS)",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "Firm Banking 연동 모듈 (KB)",
+      "use": "가상계좌 발급·입금통보·환불송금 연동",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "결제 인증 모듈(PIN·생체)",
+      "use": "결제 PIN 6자리·생체 인증 검증",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "웹/WAS 서버 #1",
+      "use": "브릿지X 앱·웹 서비스 제공 (Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "웹/WAS 서버 #2",
+      "use": "브릿지X 앱·웹 서비스 제공 (Standby)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "결제 API 게이트웨이 #1",
+      "use": "결제 요청 수신·인증·라우팅 (Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "결제 API 게이트웨이 #2",
+      "use": "결제 요청 수신·인증·라우팅 (Standby)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "형상관리(CMDB/CICD) 서버",
+      "use": "소스코드 형상관리·자산/변경 이력 저장·빌드/배포 통제",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "개발/시험 DB 서버",
+      "use": "개발·QA용 회원/원장 DB(개인정보 비식별화 데이터 적재). DBMS: Oracle 19c Standard",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "결제 엔진 서버 #1",
+      "use": "충전·결제·환불·정산 핵심 처리 (Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "결제 엔진 서버 #2",
+      "use": "충전·결제·환불·정산 핵심 처리 (Standby)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "모바일 API 서버 #1",
+      "use": "브릿지X 머니 모바일 앱 백엔드 API 제공 (Active/Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "모바일 API 서버 #2",
+      "use": "브릿지X 머니 모바일 앱 백엔드 API 제공 (Active/Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WEB",
+      "use": "회원 서비스 Web (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WEB",
+      "use": "회원 서비스 Web (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "회원 가입·탈퇴·파기 APP (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "약관·동의 처리 APP (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "본인인증 연동 모듈 (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "거래 비즈니스 로직 APP (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "회원 가입·탈퇴·파기 APP (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "약관·동의 처리 APP (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "본인인증 연동 모듈 (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "거래 비즈니스 로직 APP (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "결제 인증 API (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "결제 승인 API (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "결제 인증 API (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "결제 승인 API (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "모바일 회원 조회·가입요청 API (BFF, 운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "모바일 거래 API (BFF, 운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "모바일 PIN/생체 챌린지 발급 API (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "모바일 회원 조회·가입요청 API (BFF, 운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "모바일 거래 API (BFF, 운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "모바일 PIN/생체 챌린지 발급 API (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 팀장 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 서버개발 1 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 서버개발 2 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 서버개발 3 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 서버개발 4 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 서버개발 5 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 클라이언트개발 1 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 클라이언트개발 2 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 클라이언트개발 3 개발용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "개발팀 QA 검증용 데스크탑",
+      "grade": "2등급"
+    }
+  ],
+  "ops": [
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "가맹점 관리 웹 (가맹점 대시보드)",
+      "use": "가맹점 정산 내역 조회·통보 대시보드",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "정산 시스템",
+      "use": "가맹점별 일일 집계·수수료·송금 처리",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "고객문의(CS) 시스템",
+      "use": "문의 접수·응대·이력 관리",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "가맹점 웹/WAS 서버 #1",
+      "use": "가맹점 정산 대시보드·거래 조회 제공 (Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "가맹점 웹/WAS 서버 #2",
+      "use": "가맹점 정산 대시보드·거래 조회 제공 (Standby)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "가맹점 정산 대시보드 APP (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "가맹점 거래 조회 APP (운영A)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "가맹점 정산 대시보드 APP (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "가맹점 거래 조회 APP (운영B)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "정산 관리 APP (가맹점 정산 승인·조정)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "CS 처리 APP (고객 조회·민원 응대)",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "운영팀 팀장 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "운영팀 정산처리 1 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "운영팀 정산처리 2 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "운영팀 CS·환불처리 1 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "운영팀 CS·환불처리 2 업무용 데스크탑",
+      "grade": "1등급"
+    }
+  ],
+  "infra": [
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "관리자 페이지(어드민)",
+      "use": "서버·DB 운영 및 관리 콘솔",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "관리자 페이지 서버",
+      "use": "운영자 관리자 페이지(Admin) — IP·OTP 접근통제",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "회원·원장·거래 DB Standby 서버",
+      "use": "회원·원장·거래·FDS DB Active-Standby 복제 대기 노드. DBMS: Oracle 19c Data Guard",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "내부 DNS/NTP 서버",
+      "use": "내부망 도메인 해석(DNS)·시각 동기화(NTP)",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "모니터링(NMS) 서버",
+      "use": "시스템·네트워크 성능/장애 모니터링",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "대외 연동 게이트웨이",
+      "use": "KB국민은행·NICE평가정보 외부기관 연동",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "회원 DB 서버 (운영)",
+      "use": "회원 식별정보 저장(성명·생년월일·휴대폰·CI/DI· 가상계좌 매핑). DBMS: Oracle 19c Enterprise",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "원장 DB 서버 (운영)",
+      "use": "선불 잔액·충전·결제·환불 원장 처리. DBMS: Oracle 19c Enterprise",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "거래·로그 DB 서버 (운영)",
+      "use": "충전·결제·환불 거래 이력 + 접속·감사 로그 보관. DBMS: Oracle 19c Enterprise",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "가맹점·정산 DB 서버 (운영)",
+      "use": "가맹점 사업자·계약 정보 + 가맹점별 일일 정산 내역·수수료. DBMS: Oracle 19c Standard",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "고객문의 DB 서버 (운영)",
+      "use": "고객 상담·문의 이력·CS 메모 보관. DBMS: Oracle 19c Standard",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "DB 재해복구(DR) 서버",
+      "use": "회원·원장 DB 재해복구(DR) 사이트 원격 복제본. DBMS: Oracle 19c Enterprise",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "백업 서버",
+      "use": "서비스 DB(회원·원장·거래) 일/주 백업본 보관·소산 복구",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "스토리지(NAS) 서버",
+      "use": "백업·로그 통합 저장 스토리지",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "패치 관리 서버",
+      "use": "내부망 서버·단말 보안패치 통합 배포",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "가상화 호스트 #1",
+      "use": "DMZ·내부망 가상서버 구동 하이퍼바이저 (노드1)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "가상화 호스트 #2",
+      "use": "DMZ·내부망 가상서버 구동 하이퍼바이저 (노드2)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "스테이징 Web 서버",
+      "use": "운영 배포 전 회원 서비스 Web 검증 (스테이징)",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "스테이징 WAS 서버",
+      "use": "운영 배포 전 비즈니스 로직 통합 검증 (스테이징)",
+      "grade": "2등급"
+    },
+    {
+      "category": "서버",
+      "name": "개발 WAS 서버",
+      "use": "개발자 통합 개발 환경 (개발)",
+      "grade": "3등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "회원 관리 APP (조회·차단·복구)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "거래 관리 APP (조회·취소·환불 승인)",
+      "grade": "1등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WEB",
+      "use": "회원 서비스 Web (스테이징)",
+      "grade": "2등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "비즈니스 로직 통합 APP (스테이징)",
+      "grade": "2등급"
+    },
+    {
+      "category": "WEBWAS",
+      "name": "WAS",
+      "use": "통합 개발 환경",
+      "grade": "3등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "모회사 회원 ID와 매핑된 회원 식별정보 저장(이메일·성명·생년월일·휴대폰·비밀번호 해시·본인인증 결과 CI/DI·가상계좌 매핑·서비스 이용 약",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "선불 잔액·충전·결제·환불 원장 처리(입금자명·입금 계좌번호 포함)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "충전·결제·환불 거래 이력 보관",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "접속·감사 로그 적재 및 SIEM 연계",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "이상거래 탐지(FDS) 룰·임계값·탐지 이력 저장",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "가맹점 사업자 정보·계약 정보 보관",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "가맹점별 일일 정산 내역·수수료 집계",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "결제 인증 PIN(단방향 해시)·세션 토큰 관리",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "고객 상담·문의 이력·CS 메모 보관",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "회원 DB 일/주 백업본 보관",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "원장 DB 일/주 백업본 보관",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "테스트",
+      "use": "개발·QA용 회원 DB(개인정보 비식별화 데이터 적재)",
+      "grade": "2등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "테스트",
+      "use": "개발·QA용 원장 DB",
+      "grade": "3등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영(Standby)",
+      "use": "회원 DB Active-Standby 복제 대기 노드(Oracle Data Guard)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영(Standby)",
+      "use": "원장 DB Active-Standby 복제 대기 노드(Oracle Data Guard)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영(Standby)",
+      "use": "거래 DB Active-Standby 복제 대기 노드(Oracle Data Guard)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영(Standby)",
+      "use": "FDS DB Active-Standby 복제 대기 노드(Oracle Data Guard)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영(Replica)",
+      "use": "인증 DB Redis Replication 복제 노드(Sentinel 구성)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "DR",
+      "use": "회원 DB 재해복구(DR) 사이트 원격 복제본",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "DR",
+      "use": "원장 DB 재해복구(DR) 사이트 원격 복제본",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "형상 관리(CMDB) 자산·변경 이력 저장",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "거래 DB 일/주 백업본 보관",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "인터넷 진입 라우터 #1 (Active)",
+      "use": "망분리 인터넷 경계 라우팅·BGP",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "인터넷 진입 라우터 #2 (Standby)",
+      "use": "망분리 인터넷 경계 라우팅·BGP (페일오버 대비)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "KB Firm Banking 전용회선 라우터 #1 (Active)",
+      "use": "KB국민은행 전용회선 종단 / 24/7 충전·정산·환불 통신",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "KB Firm Banking 전용회선 라우터 #2 (Standby)",
+      "use": "KB국민은행 전용회선 종단 (페일오버) / 결제 연속성 핵심",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "NICE 본인인증 API 게이트웨이",
+      "use": "NICE 본인인증(CI/DI) HTTPS API 연계·중계 G/W",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "DMZ 코어 스위치 #1 (Active)",
+      "use": "DMZ 망분리 라우팅·VLAN 트렁크·서비스망 분배",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "DMZ 코어 스위치 #2 (Standby)",
+      "use": "DMZ 망분리 라우팅 (VRRP 페일오버)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "데이터망 코어 스위치 #1 (Active)",
+      "use": "내부망 라우팅·DB/결제엔진존 분배",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "데이터망 코어 스위치 #2 (Standby)",
+      "use": "내부망 라우팅 (vPC 페어)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "DMZ Web·WAS 액세스 스위치",
+      "use": "DMZ Web·WAS존 트래픽 수용 (결제 게이트웨이)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "서버존 액세스 스위치",
+      "use": "결제엔진·FDS·정산 서버 트래픽 수용",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "DB존 액세스 스위치",
+      "use": "회원·원장·로그 DB 트래픽 (CI/DI·결제정보 처리)",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "관리자 단말망 액세스 스위치",
+      "use": "운영자 PC·VPN·접근제어 시스템 수용",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "외부 진입 L4/L7 로드밸런서 #1 (Active)",
+      "use": "TLS 종료·세션 분산·헬스체크 / ACM·WAF attach",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "외부 진입 L4/L7 로드밸런서 #2 (Standby)",
+      "use": "TLS 종료·세션 분산 (페일오버)",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "운영자 SSL-VPN #1 (Active)",
+      "use": "운영자 원격 접속 / MFA 인증 후 관리망 접근",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "운영자 SSL-VPN #2 (Standby)",
+      "use": "운영자 원격 접속 (페일오버) / MFA 인증",
+      "grade": "1등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "ISP 광 회선 종단(L1)",
+      "use": "ISP 광 회선 종단·전송(L1)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "Out-of-Band 콘솔 서버",
+      "use": "네트워크 장애 시 시리얼 비상 접속",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "NTP 시간 동기화 서버",
+      "use": "감사 로그·인증 시각 동기화 (Stratum 2)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "사무공간 업무용 무선 AP #1",
+      "use": "임직원 업무용 무선 네트워크 접속(사무공간 한정, 전산실 제외)",
+      "grade": "2등급"
+    },
+    {
+      "category": "네트워크장비",
+      "name": "무선 LAN 컨트롤러(WLC)",
+      "use": "무선 AP 통합 관리·인증(WPA2-Enterprise)·비인가 AP 탐지",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "인프라운영팀 팀장 운영용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "인프라운영팀 서버·DB운영 1 운영용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "인프라운영팀 서버·DB운영 2 운영용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "인프라운영팀 네트워크·방화벽운영 운영용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "인프라운영팀 자체전산실 시설관리 업무용 데스크탑",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "인프라운영팀 백업·복구·매체관리 운영용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "예비 노트북 1 (유휴·미지급)",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "예비 노트북 2 (유휴·미지급)",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "예비 노트북 3 (유휴·미지급)",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "예비 데스크탑 1 (유휴·미지급)",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "예비 데스크탑 2 (유휴·미지급)",
+      "grade": "3등급"
+    }
+  ],
+  "infosec": [
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "FDS 엔진",
+      "use": "이상거래 탐지(FDS) 룰 기반 실시간 탐지·차단",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "보안 운영 콘솔(SIEM/EDR)",
+      "use": "보안 이벤트·접속 감사 로그 통합 분석, 백신·EDR 중앙 모니터링",
+      "grade": "1등급"
+    },
+    {
+      "category": "애플리케이션(홈페이지앱)",
+      "name": "휴면회원·파기 자동화 모듈",
+      "use": "개인정보 보관기간 도래 시 휴면 전환·자동 파기 실행",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "인증 DB Replica 서버",
+      "use": "인증 DB Redis Replication 복제 노드(Sentinel 구성). DBMS: Redis 7.2(In-Memory)",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "FDS DB 서버 (운영)",
+      "use": "이상거래 탐지(FDS) 룰·임계값·탐지 이력 저장. DBMS: Oracle 19c Enterprise",
+      "grade": "1등급"
+    },
+    {
+      "category": "서버",
+      "name": "인증 DB 서버 (운영)",
+      "use": "결제 인증 PIN(단방향 해시)·세션 토큰 관리. DBMS: Redis 7.2 Enterprise(In-Memory)",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "SIEM 통합 보안 이벤트·상관분석 결과 저장소",
+      "grade": "1등급"
+    },
+    {
+      "category": "데이터베이스",
+      "name": "운영",
+      "use": "권한 관리(접근제어 솔루션) 계정·권한·접속 기록 저장",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "인터넷-DMZ 경계 방화벽 #1 (Active)",
+      "use": "인터넷↔DMZ 망분리 1차 차단·접근통제 (Active)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "인터넷-DMZ 경계 방화벽 #2 (Standby)",
+      "use": "인터넷↔DMZ 망분리 차단 (페일오버)",
+      "grade": "2등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "DMZ-내부망 경계 방화벽 #1 (Active)",
+      "use": "DMZ↔내부망 핵심 망분리 차단·접근통제",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "DMZ-내부망 경계 방화벽 #2 (Standby)",
+      "use": "DMZ↔내부망 차단 (페일오버)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "외부 연계 전용 방화벽",
+      "use": "KB Firm Banking·NICE 전용회선 접속 통제",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "외부 진입 IPS",
+      "use": "인터넷 진입 트래픽 침입탐지·차단",
+      "grade": "2등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "외부 진입 웹방화벽 #1 (Active)",
+      "use": "OWASP Top 10·SQL Injection·XSS 차단 (결제창 보호)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "외부 진입 웹방화벽 #2 (Standby)",
+      "use": "웹 공격 차단 (페일오버)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "외부 DDoS 방어 장비",
+      "use": "L3/4·L7 DDoS 트래픽 차단·완화",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "망간 자료전송 보안 게이트웨이 #1 (Active)",
+      "use": "DMZ↔내부망 자료전송 정책 적용·콘텐츠 검증",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "망간 자료전송 보안 게이트웨이 #2 (Standby)",
+      "use": "망간 자료전송 (페일오버)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "DB 접근제어 시스템",
+      "use": "회원·원장·로그·정산 DB 통제 (CI/DI·결제정보 보호)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "서버 접근제어 시스템",
+      "use": "운영자 명령어·접속 통제 (결제엔진·FDS·정산 서버)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "단말 DLP (정보유출방지)",
+      "use": "임직원 PC 외부 발송 차단·민감정보 탐지",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "NAC 네트워크 접근제어",
+      "use": "비인가 단말 차단·MAC/IP 등록 통제·자산 가시성",
+      "grade": "2등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "SIEM 통합 보안 관제 시스템",
+      "use": "보안 이벤트 통합 수집·상관분석·이상행위 탐지",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "백신 통합 관리 서버",
+      "use": "임직원 PC 백신 정책 배포·악성코드 탐지 관리",
+      "grade": "2등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "HSM 암호화 키 관리 #1 (Active)",
+      "use": "결제·인증·CI/DI 암호화 키 보호·키 관리 (분실 시 복호화 불가)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "HSM 암호화 키 관리 #2 (Standby)",
+      "use": "결제·인증·CI/DI 암호화 키 (HA Pair)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "이상금융거래 탐지시스템 FDS #1 (Active)",
+      "use": "충전·결제·환불 이상거래 실시간 룰 탐지·차단 (1회 50만원·1일 200만원 한도 검증)",
+      "grade": "1등급"
+    },
+    {
+      "category": "정보보호시스템",
+      "name": "이상금융거래 탐지시스템 FDS #2 (Standby)",
+      "use": "FDS 룰 탐지·차단 (Cluster Active-Active 또는 페일오버)",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "정보보안팀 팀장(CISO 겸직) 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "정보보안팀 보안 솔루션 운영(사원) 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "정보보안팀 보안 솔루션 운영(대리) 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "정보보안팀 개인정보보호(CPO 겸직) 업무용 데스크탑",
+      "grade": "1등급"
+    }
+  ],
+  "mgmt-support": [
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "경영지원팀 팀장(총무·시설) 업무용 단말",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "경영지원팀 팀원(법무·구매) 업무용 단말",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "경영지원팀 팀원(회계) 업무용 단말",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "경영지원팀 팀원(자금) 업무용 단말",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "경영지원팀 팀원(세무·결산) 업무용 단말",
+      "grade": "2등급"
+    }
+  ],
+  "hr": [
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "인사팀 팀장(채용·교육) 업무용 단말",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "인사팀 팀원(노무·복지) 업무용 단말",
+      "grade": "2등급"
+    }
+  ],
+  "merchant": [
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 팀장 업무용 단말",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 수도권영업 1 업무용 단말",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 수도권영업 2 업무용 단말",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 지방영업 1 업무용 단말",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 지방영업 2 업무용 단말",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 팀원(브랜드·홍보) 업무용 단말",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "노트북",
+      "use": "영업마케팅팀 팀원(디지털 마케팅) 업무용 단말",
+      "grade": "3등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "가맹점관리팀 팀장 업무용 데스크탑",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "가맹점관리팀 정산담당 업무용 데스크탑",
+      "grade": "1등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "가맹점관리팀 운영담당 업무용 데스크탑",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "가맹점관리팀 CS 1 업무용 데스크탑",
+      "grade": "2등급"
+    },
+    {
+      "category": "PC",
+      "name": "데스크탑",
+      "use": "가맹점관리팀 CS 2 업무용 데스크탑",
+      "grade": "2등급"
+    }
+  ]
+}
